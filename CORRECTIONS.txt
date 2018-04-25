@@ -1,0 +1,5 @@
+---Lecture 3---
+
+The 2D-list-comprehension was wrong. If you have two for loops, the order is:
+assert all(isinstance(cell, (int, float)) for row in your_data for cell in row), str(cell)+" is no int or float!".
+an intuitive mnemonics is that the order is the same one as if you used normal nested for-loops
