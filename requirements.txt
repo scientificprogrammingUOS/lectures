@@ -1,0 +1,7 @@
+jupyter
+jupyter_contrib_nbextensions
+numpy
+matplotlib
+pandas
+plotnine
+statsmodels
