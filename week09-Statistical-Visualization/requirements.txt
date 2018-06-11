@@ -1,0 +1,7 @@
+jupyterlab >= 0.32
+matplotlib
+pandas
+git+https://github.com/has2k1/plotnine.git
+seaborn
+altair
+vega_datasets
