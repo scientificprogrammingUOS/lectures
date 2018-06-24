@@ -1,0 +1,305 @@
+#Expyriment  (Python 3.6.5), .xpe-file, coding: UTF-8
+#date: Wed Jun 20 2018 18:09:36
+#sha1: 28e7e2
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: uname_result(system='Linux', node='debian', release='4.16.0-2-amd64', version='#1 SMP Debian 4.16.12-1 (2018-05-27)', machine='x86_64', processor='')
+Time,Type,Event,Value,Detail,Detail2
+11715,design,log,
+#design: #exp: word fragment completion test
+#design: #dvn: word,fragment,RT,RT2,answer
+#design: block_cnt,block_id,trial_cnt,trial_id,word,fragment
+#design: 0,0,0,53,tornado,_orn_d_
+#design: 0,0,1,36,refrigerator,_efri___ato_
+#design: 0,0,2,43,snowman,_no__an
+#design: 0,0,3,38,sandwich,s__d_i_h
+#design: 0,0,4,18,helicopter,_e_ico___r
+#design: 0,0,5,52,toothbrush,to_t__rus_
+#design: 0,0,6,49,television,_e_ev__i_n
+#design: 0,0,7,31,peanut,_e_nu_
+#design: 0,0,8,11,envelope,_nve___e
+#design: 0,0,9,8,carrot,c___ot
+#design: 0,0,10,17,grasshopper,_ra_s_o_p__
+#design: 0,0,11,26,needle,n__d_e
+#design: 0,0,12,40,scissors,__isso__
+#design: 0,0,13,21,kangaroo,_a_g_r_o
+#design: 0,0,14,35,pyramid,_yr_mi_
+#design: 0,0,15,6,camera,_ame_a
+#design: 0,0,16,56,umbrella,_m_re_l_
+#design: 0,0,17,39,saxophone,sa_op_on_
+#design: 0,0,18,47,sweater,_w_ate_
+#design: 0,0,19,16,giraffe,__r_f_e
+#design: 0,0,20,10,elephant,_lep__n_
+#design: 0,0,21,46,suitcase,__itc_se
+#design: 0,0,22,2,ashtray,__ht_ay
+#design: 0,0,23,27,newspaper,_ew__ape_
+#design: 0,0,24,57,unicorn,_n_cor_
+#design: 0,0,25,5,cactus,_ac_u_
+#design: 0,0,26,41,screwdriver,s__ew_ri_e_
+#design: 0,0,27,59,watermelon,_ate__elo_
+#design: 0,0,28,32,pencil,_e_c_l
+#design: 0,0,29,22,lobster,l_bs___
+#design: 0,0,30,58,violin,_io__n
+#design: 0,0,31,19,igloo,i_lo_
+#design: 0,0,32,45,submarine,__bm_ri_e
+#design: 0,0,33,37,rhinoceros,__in_ce_os
+#design: 0,0,34,12,escalator,_sca__t__
+#design: 0,0,35,55,typewriter,t__e_rit__
+#design: 0,0,36,1,arrow,_r__w
+#design: 0,0,37,24,motorcycle,_oto__y___
+#design: 0,0,38,48,telescope,__le_c_pe
+#design: 0,0,39,28,octopus,__topu_
+#design: 0,0,40,15,football,_oo__al_
+#design: 0,0,41,44,squirrel,s_ui_re_
+#design: 0,0,42,13,fireplace,_ir_p_a_e
+#design: 0,0,43,33,penguin,pe__ui_
+#design: 0,0,44,25,mountain,m_un__in
+#design: 0,0,45,54,turkey,t_r__y
+#design: 0,0,46,50,thermometer,_her__m_te_
+#design: 0,0,47,7,canoe,___oe
+#design: 0,0,48,23,microscope,_i_ros_op_
+#design: 0,0,49,34,piano,_i__o
+#design: 0,0,50,42,skunk,_ku_k
+#design: 0,0,51,9,diamond,_ia__nd
+#design: 0,0,52,20,intestines,in__stin_s
+#design: 0,0,53,30,parachute,_ar_ch_t_
+#design: 0,0,54,3,balloon,__l_oo_
+#design: 0,0,55,29,ostrich,_s_ri_h
+#design: 0,0,56,4,bicycle,__c__le
+#design: 0,0,57,14,flower,f__we_
+#design: 0,0,58,0,ambulance,a__ula_c_
+#design: 0,0,59,51,toaster,to_s__r
+11715,design,logged,
+11715,Experiment,started
+11716,Stimulus,presented,1
+11719,Screen,updated
+12722,Stimulus,presented,0
+12723,Screen,updated
+13223,Stimulus,presented,4
+13224,Screen,updated
+14092,Keyboard,received,32,wait
+14112,Stimulus,presented,5
+14115,Screen,updated
+14128,Stimulus,presented,5
+14130,Screen,updated
+14144,Stimulus,presented,5
+14147,Screen,updated
+14148,Stimulus,presented,6
+14148,Screen,updated
+15024,Stimulus,presented,6
+15024,Screen,updated
+16158,Stimulus,presented,6
+16159,Screen,updated
+16413,Stimulus,presented,6
+16413,Screen,updated
+16694,Stimulus,presented,6
+16695,Screen,updated
+16811,Stimulus,presented,6
+16812,Screen,updated
+16912,Stimulus,presented,6
+16912,Screen,updated
+17088,TextInput,entered,b'ornado'
+17088,Stimulus,presented,1
+17091,Screen,updated
+17091,Stimulus,presented,1
+17093,Screen,updated
+18094,Stimulus,presented,0
+18095,Screen,updated
+18595,Stimulus,presented,6
+18596,Screen,updated
+20597,Keyboard,received,32,wait
+20617,Stimulus,presented,7
+20620,Screen,updated
+20631,Stimulus,presented,7
+20633,Screen,updated
+20647,Stimulus,presented,7
+20650,Screen,updated
+20651,Stimulus,presented,8
+20651,Screen,updated
+20905,Stimulus,presented,8
+20906,Screen,updated
+20971,Stimulus,presented,8
+20971,Screen,updated
+21212,Stimulus,presented,8
+21213,Screen,updated
+21450,Stimulus,presented,8
+21450,Screen,updated
+21556,Stimulus,presented,8
+21556,Screen,updated
+21739,Stimulus,presented,8
+21740,Screen,updated
+21908,Stimulus,presented,8
+21908,Screen,updated
+22168,Stimulus,presented,8
+22169,Screen,updated
+22291,Stimulus,presented,8
+22291,Screen,updated
+22415,Stimulus,presented,8
+22416,Screen,updated
+22528,Stimulus,presented,8
+22529,Screen,updated
+22640,Stimulus,presented,8
+22640,Screen,updated
+22765,TextInput,entered,b'refrigerator'
+22765,Stimulus,presented,1
+22767,Screen,updated
+22768,Stimulus,presented,1
+22769,Screen,updated
+23770,Stimulus,presented,0
+23771,Screen,updated
+24271,Stimulus,presented,8
+24272,Screen,updated
+27103,Keyboard,received,32,wait
+27123,Stimulus,presented,9
+27126,Screen,updated
+27136,Stimulus,presented,9
+27139,Screen,updated
+27152,Stimulus,presented,9
+27155,Screen,updated
+27158,Stimulus,presented,10
+27158,Screen,updated
+27782,Stimulus,presented,10
+27782,Screen,updated
+27924,Stimulus,presented,10
+27925,Screen,updated
+28095,Stimulus,presented,10
+28095,Screen,updated
+28263,Stimulus,presented,10
+28264,Screen,updated
+28462,Stimulus,presented,10
+28463,Screen,updated
+28614,Stimulus,presented,10
+28614,Screen,updated
+28756,Stimulus,presented,10
+28757,Screen,updated
+28949,Stimulus,presented,10
+28949,Screen,updated
+29155,TextInput,entered,b'anonnnan'
+29155,Stimulus,presented,1
+29157,Screen,updated
+29158,Stimulus,presented,1
+29160,Screen,updated
+30161,Stimulus,presented,0
+30162,Screen,updated
+30662,Stimulus,presented,10
+30663,Screen,updated
+35866,Keyboard,received,32,wait
+35886,Stimulus,presented,11
+35889,Screen,updated
+35900,Stimulus,presented,11
+35903,Screen,updated
+35915,Stimulus,presented,11
+35918,Screen,updated
+35920,Stimulus,presented,12
+35921,Screen,updated
+36603,Stimulus,presented,12
+36604,Screen,updated
+36978,Stimulus,presented,12
+36979,Screen,updated
+37266,Stimulus,presented,12
+37266,Screen,updated
+37389,Stimulus,presented,12
+37390,Screen,updated
+37519,Stimulus,presented,12
+37520,Screen,updated
+37668,Stimulus,presented,12
+37668,Screen,updated
+37850,Stimulus,presented,12
+37851,Screen,updated
+37994,Stimulus,presented,12
+37995,Screen,updated
+38160,Stimulus,presented,12
+38160,Screen,updated
+38349,Stimulus,presented,12
+38350,Screen,updated
+38456,Stimulus,presented,12
+38457,Screen,updated
+38565,Stimulus,presented,12
+38565,Screen,updated
+38758,TextInput,entered,b'shadlish'
+38758,Stimulus,presented,1
+38761,Screen,updated
+38761,Stimulus,presented,1
+38763,Screen,updated
+39766,Stimulus,presented,0
+39767,Screen,updated
+40267,Stimulus,presented,12
+40268,Screen,updated
+41185,Keyboard,received,32,wait
+41208,Stimulus,presented,13
+41212,Screen,updated
+41226,Stimulus,presented,13
+41229,Screen,updated
+41239,Stimulus,presented,13
+41242,Screen,updated
+41244,Stimulus,presented,14
+41245,Screen,updated
+41822,Stimulus,presented,14
+41822,Screen,updated
+41935,Stimulus,presented,14
+41935,Screen,updated
+42035,Stimulus,presented,14
+42036,Screen,updated
+42067,Stimulus,presented,14
+42068,Screen,updated
+42160,Stimulus,presented,14
+42160,Screen,updated
+42199,Stimulus,presented,14
+42200,Screen,updated
+42345,TextInput,entered,b' asdfa'
+42345,Stimulus,presented,1
+42347,Screen,updated
+42348,Stimulus,presented,1
+42349,Screen,updated
+43351,Stimulus,presented,0
+43352,Screen,updated
+43852,Stimulus,presented,14
+43853,Screen,updated
+46127,Keyboard,received,32,wait
+46146,Stimulus,presented,15
+46149,Screen,updated
+46160,Stimulus,presented,15
+46163,Screen,updated
+46177,Stimulus,presented,15
+46179,Screen,updated
+46180,Stimulus,presented,16
+46183,Screen,updated
+46598,Stimulus,presented,16
+46599,Screen,updated
+47061,Stimulus,presented,16
+47062,Screen,updated
+47137,Stimulus,presented,16
+47137,Screen,updated
+47277,Stimulus,presented,16
+47277,Screen,updated
+47377,Stimulus,presented,16
+47377,Screen,updated
+47571,Stimulus,presented,16
+47571,Screen,updated
+47815,Stimulus,presented,16
+47816,Screen,updated
+47994,Stimulus,presented,16
+47994,Screen,updated
+48245,Stimulus,presented,16
+48246,Screen,updated
+48576,Stimulus,presented,16
+48577,Screen,updated
+48674,Stimulus,presented,16
+48675,Screen,updated
+48834,TextInput,entered,b'tortrusus'
+48835,Stimulus,presented,1
+48837,Screen,updated
+48837,Stimulus,presented,1
+48840,Screen,updated
+49842,Stimulus,presented,0
+49843,Screen,updated
+50343,Stimulus,presented,16
+50344,Screen,updated
+50981,Experiment,paused
+50982,Stimulus,presented,17
+50983,Screen,updated
+51493,Keyboard,received,b'y',wait_char
+51493,Experiment,ended
+51494,Data,saved
+51495,Stimulus,presented,17
+51496,Screen,updated
