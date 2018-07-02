@@ -1,0 +1,161 @@
+#Expyriment  (Python 3.6.6), .xpd-file, coding: UTF-8
+#date: Mon Jun 25 2018 11:08:43
+#--EXPERIMENT INFO
+#e mainfile: sternberg_task.py
+#e sha1: 860d85
+#e modules: 
+#e Experiment: Sternberg Task
+#e no between subject factors
+#e Block 0: Practice
+#e     block factors: 
+#e     n trials: 12
+#e     trial factors: length = [1, 2, 3, 4, 6]
+#e                    does_appear = [False, True]
+#e                    
+#e Block 1: First Block
+#e     block factors: 
+#e     n trials: 60
+#e     trial factors: length = [1, 2, 3, 4, 5, 6]
+#e                    does_appear = [False, True]
+#e                    
+#e Block 2: Second Block
+#e     block factors: 
+#e     n trials: 60
+#e     trial factors: length = [1, 2, 3, 4, 5, 6]
+#e                    does_appear = [False, True]
+#e                    
+#--SUBJECT INFO
+#s id: 105
+subject_id,Block,Length,Response Time,Does Appear,Correct Answer
+105,Practice,1.0,1379.0,False,True
+105,Practice,1.0,2157.0,True,False
+105,Practice,3.0,865.0,True,True
+105,Practice,2.0,937.0,True,True
+105,Practice,6.0,922.0,True,True
+105,Practice,2.0,830.0,False,True
+105,Practice,4.0,1156.0,True,True
+105,Practice,6.0,1149.0,False,True
+105,Practice,5.0,1063.0,True,True
+105,Practice,3.0,1167.0,False,True
+105,Practice,5.0,944.0,False,True
+105,Practice,4.0,700.0,False,True
+105,First Block,1.0,1130.0,True,True
+105,First Block,5.0,875.0,False,True
+105,First Block,1.0,947.0,False,True
+105,First Block,3.0,1047.0,True,True
+105,First Block,5.0,1894.0,True,True
+105,First Block,4.0,980.0,True,True
+105,First Block,4.0,646.0,False,True
+105,First Block,6.0,894.0,False,True
+105,First Block,6.0,1201.0,True,True
+105,First Block,3.0,1162.0,False,True
+105,First Block,2.0,1022.0,True,True
+105,First Block,2.0,776.0,False,True
+105,First Block,6.0,1209.0,False,True
+105,First Block,6.0,4632.0,True,False
+105,First Block,2.0,822.0,False,True
+105,First Block,1.0,1015.0,True,True
+105,First Block,5.0,2065.0,True,True
+105,First Block,3.0,1167.0,False,True
+105,First Block,3.0,915.0,True,True
+105,First Block,2.0,1274.0,True,True
+105,First Block,1.0,1153.0,False,True
+105,First Block,4.0,956.0,True,True
+105,First Block,5.0,1030.0,False,True
+105,First Block,4.0,1767.0,False,True
+105,First Block,5.0,1431.0,True,True
+105,First Block,4.0,920.0,True,True
+105,First Block,2.0,830.0,False,True
+105,First Block,2.0,3223.0,True,True
+105,First Block,3.0,1815.0,False,True
+105,First Block,4.0,1126.0,False,True
+105,First Block,1.0,660.0,False,True
+105,First Block,1.0,653.0,True,True
+105,First Block,5.0,1420.0,False,True
+105,First Block,3.0,948.0,True,True
+105,First Block,6.0,991.0,True,True
+105,First Block,6.0,1560.0,False,True
+105,First Block,3.0,947.0,True,True
+105,First Block,1.0,1000.0,False,True
+105,First Block,2.0,970.0,False,True
+105,First Block,1.0,822.0,True,True
+105,First Block,5.0,1054.0,True,True
+105,First Block,4.0,934.0,True,True
+105,First Block,2.0,1291.0,True,True
+105,First Block,4.0,816.0,False,True
+105,First Block,6.0,1560.0,True,True
+105,First Block,6.0,1127.0,False,True
+105,First Block,3.0,1147.0,False,True
+105,First Block,5.0,989.0,False,True
+105,First Block,6.0,996.0,True,True
+105,First Block,5.0,1110.0,True,True
+105,First Block,2.0,845.0,False,True
+105,First Block,5.0,748.0,False,True
+105,First Block,6.0,0.0,False,False
+105,First Block,4.0,996.0,True,True
+105,First Block,3.0,711.0,False,True
+105,First Block,4.0,859.0,False,True
+105,First Block,1.0,716.0,True,True
+105,First Block,3.0,930.0,True,True
+105,First Block,1.0,1016.0,False,True
+105,First Block,2.0,849.0,True,True
+105,Second Block,4.0,833.0,True,True
+105,Second Block,5.0,847.0,True,True
+105,Second Block,1.0,929.0,False,True
+105,Second Block,2.0,943.0,False,True
+105,Second Block,6.0,1657.0,True,True
+105,Second Block,2.0,777.0,True,True
+105,Second Block,6.0,1136.0,False,True
+105,Second Block,1.0,726.0,True,True
+105,Second Block,3.0,980.0,True,True
+105,Second Block,3.0,1406.0,False,True
+105,Second Block,4.0,1287.0,False,True
+105,Second Block,5.0,1052.0,False,True
+105,Second Block,5.0,1010.0,True,True
+105,Second Block,4.0,1211.0,False,True
+105,Second Block,6.0,963.0,False,True
+105,Second Block,2.0,895.0,True,True
+105,Second Block,1.0,783.0,True,True
+105,Second Block,4.0,921.0,True,True
+105,Second Block,5.0,1084.0,False,True
+105,Second Block,3.0,1091.0,False,True
+105,Second Block,2.0,858.0,False,True
+105,Second Block,3.0,1241.0,True,True
+105,Second Block,1.0,626.0,False,True
+105,Second Block,6.0,1042.0,True,True
+105,Second Block,4.0,1042.0,True,True
+105,Second Block,4.0,1346.0,False,True
+105,Second Block,2.0,878.0,False,True
+105,Second Block,2.0,742.0,True,True
+105,Second Block,1.0,1171.0,False,True
+105,Second Block,5.0,1660.0,False,True
+105,Second Block,6.0,850.0,False,True
+105,Second Block,6.0,1055.0,True,True
+105,Second Block,3.0,815.0,False,True
+105,Second Block,1.0,666.0,True,True
+105,Second Block,5.0,904.0,True,True
+105,Second Block,3.0,1559.0,True,True
+105,Second Block,3.0,1474.0,False,True
+105,Second Block,4.0,945.0,False,True
+105,Second Block,3.0,1694.0,True,True
+105,Second Block,2.0,723.0,True,True
+105,Second Block,1.0,697.0,True,True
+105,Second Block,5.0,870.0,False,True
+105,Second Block,1.0,742.0,False,True
+105,Second Block,4.0,938.0,True,True
+105,Second Block,2.0,983.0,False,True
+105,Second Block,6.0,1583.0,True,True
+105,Second Block,5.0,1025.0,True,True
+105,Second Block,6.0,1207.0,False,True
+105,Second Block,6.0,1269.0,False,True
+105,Second Block,4.0,843.0,True,True
+105,Second Block,6.0,1025.0,True,True
+105,Second Block,2.0,643.0,True,True
+105,Second Block,3.0,787.0,True,True
+105,Second Block,3.0,1214.0,False,True
+105,Second Block,5.0,820.0,True,True
+105,Second Block,1.0,774.0,True,True
+105,Second Block,5.0,1056.0,False,True
+105,Second Block,4.0,998.0,False,True
+105,Second Block,2.0,1145.0,False,True
+105,Second Block,1.0,719.0,False,True

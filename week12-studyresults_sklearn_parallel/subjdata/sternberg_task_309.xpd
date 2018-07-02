@@ -1,0 +1,161 @@
+#Expyriment  (Python 3.6.6), .xpd-file, coding: UTF-8
+#date: Mon Jun 25 2018 11:08:43
+#--EXPERIMENT INFO
+#e mainfile: sternberg_task.py
+#e sha1: 860d85
+#e modules: 
+#e Experiment: Sternberg Task
+#e no between subject factors
+#e Block 0: Practice
+#e     block factors: 
+#e     n trials: 12
+#e     trial factors: length = [1, 2, 3, 4, 6]
+#e                    does_appear = [False, True]
+#e                    
+#e Block 1: First Block
+#e     block factors: 
+#e     n trials: 60
+#e     trial factors: length = [1, 2, 3, 4, 5, 6]
+#e                    does_appear = [False, True]
+#e                    
+#e Block 2: Second Block
+#e     block factors: 
+#e     n trials: 60
+#e     trial factors: length = [1, 2, 3, 4, 5, 6]
+#e                    does_appear = [False, True]
+#e                    
+#--SUBJECT INFO
+#s id: 309
+subject_id,Block,Length,Response Time,Does Appear,Correct Answer
+309,Practice,1.0,4535.0,True,True
+309,Practice,3.0,1488.0,False,True
+309,Practice,5.0,1885.0,False,True
+309,Practice,6.0,1329.0,False,False
+309,Practice,4.0,1277.0,True,True
+309,Practice,2.0,1044.0,True,True
+309,Practice,4.0,763.0,False,True
+309,Practice,1.0,969.0,False,True
+309,Practice,6.0,1089.0,True,True
+309,Practice,5.0,1231.0,True,True
+309,Practice,3.0,968.0,True,True
+309,Practice,2.0,1020.0,False,True
+309,First Block,4.0,934.0,False,True
+309,First Block,2.0,851.0,True,True
+309,First Block,3.0,739.0,False,True
+309,First Block,5.0,741.0,True,True
+309,First Block,4.0,1138.0,True,True
+309,First Block,1.0,1151.0,True,True
+309,First Block,6.0,722.0,True,True
+309,First Block,3.0,927.0,True,True
+309,First Block,1.0,709.0,False,True
+309,First Block,6.0,713.0,False,True
+309,First Block,5.0,709.0,False,True
+309,First Block,2.0,682.0,False,True
+309,First Block,1.0,898.0,False,True
+309,First Block,3.0,577.0,False,True
+309,First Block,1.0,598.0,True,True
+309,First Block,2.0,560.0,True,True
+309,First Block,3.0,461.0,True,True
+309,First Block,2.0,613.0,False,True
+309,First Block,4.0,1063.0,True,True
+309,First Block,6.0,675.0,True,True
+309,First Block,6.0,862.0,False,True
+309,First Block,5.0,820.0,True,True
+309,First Block,5.0,733.0,False,True
+309,First Block,4.0,793.0,False,True
+309,First Block,2.0,828.0,False,True
+309,First Block,5.0,532.0,True,True
+309,First Block,1.0,1546.0,False,True
+309,First Block,1.0,695.0,True,True
+309,First Block,5.0,892.0,False,True
+309,First Block,3.0,1251.0,True,True
+309,First Block,6.0,1257.0,False,True
+309,First Block,4.0,520.0,True,True
+309,First Block,4.0,733.0,False,True
+309,First Block,6.0,920.0,True,True
+309,First Block,2.0,510.0,True,True
+309,First Block,3.0,861.0,False,True
+309,First Block,4.0,835.0,False,True
+309,First Block,5.0,691.0,True,False
+309,First Block,3.0,593.0,False,True
+309,First Block,1.0,677.0,False,True
+309,First Block,1.0,326.0,True,True
+309,First Block,5.0,866.0,False,True
+309,First Block,2.0,435.0,True,True
+309,First Block,4.0,506.0,True,True
+309,First Block,3.0,617.0,True,True
+309,First Block,2.0,1787.0,False,True
+309,First Block,6.0,1642.0,True,True
+309,First Block,6.0,873.0,False,True
+309,First Block,3.0,560.0,False,True
+309,First Block,1.0,942.0,False,True
+309,First Block,2.0,4714.0,False,True
+309,First Block,1.0,1118.0,True,True
+309,First Block,6.0,1122.0,False,True
+309,First Block,2.0,1008.0,True,True
+309,First Block,4.0,1144.0,False,True
+309,First Block,6.0,972.0,True,True
+309,First Block,3.0,662.0,True,True
+309,First Block,5.0,485.0,True,True
+309,First Block,5.0,1268.0,False,True
+309,First Block,4.0,875.0,True,True
+309,Second Block,1.0,2033.0,False,True
+309,Second Block,1.0,2114.0,True,True
+309,Second Block,3.0,743.0,True,True
+309,Second Block,4.0,643.0,True,True
+309,Second Block,6.0,450.0,True,True
+309,Second Block,5.0,1633.0,False,True
+309,Second Block,5.0,769.0,True,True
+309,Second Block,6.0,907.0,False,True
+309,Second Block,2.0,634.0,True,True
+309,Second Block,3.0,802.0,False,True
+309,Second Block,4.0,756.0,False,True
+309,Second Block,2.0,1151.0,False,True
+309,Second Block,5.0,579.0,True,True
+309,Second Block,6.0,1034.0,True,True
+309,Second Block,4.0,1818.0,True,True
+309,Second Block,1.0,2187.0,True,False
+309,Second Block,5.0,925.0,False,True
+309,Second Block,2.0,938.0,True,True
+309,Second Block,1.0,992.0,False,True
+309,Second Block,3.0,739.0,False,True
+309,Second Block,6.0,981.0,False,True
+309,Second Block,3.0,943.0,True,True
+309,Second Block,2.0,587.0,False,True
+309,Second Block,4.0,566.0,False,True
+309,Second Block,2.0,1082.0,False,True
+309,Second Block,3.0,601.0,False,True
+309,Second Block,3.0,964.0,True,True
+309,Second Block,4.0,1256.0,False,True
+309,Second Block,1.0,520.0,True,True
+309,Second Block,5.0,475.0,True,True
+309,Second Block,1.0,820.0,False,True
+309,Second Block,6.0,603.0,True,True
+309,Second Block,5.0,941.0,False,True
+309,Second Block,2.0,1017.0,True,True
+309,Second Block,6.0,793.0,False,True
+309,Second Block,4.0,651.0,True,True
+309,Second Block,5.0,587.0,True,True
+309,Second Block,3.0,670.0,True,True
+309,Second Block,1.0,710.0,True,True
+309,Second Block,4.0,731.0,True,True
+309,Second Block,1.0,952.0,False,True
+309,Second Block,3.0,1133.0,False,True
+309,Second Block,2.0,594.0,False,False
+309,Second Block,4.0,860.0,False,True
+309,Second Block,6.0,1386.0,True,True
+309,Second Block,6.0,1244.0,False,True
+309,Second Block,5.0,1890.0,False,True
+309,Second Block,2.0,448.0,True,True
+309,Second Block,1.0,834.0,True,True
+309,Second Block,5.0,926.0,False,True
+309,Second Block,6.0,1274.0,True,True
+309,Second Block,3.0,753.0,False,True
+309,Second Block,2.0,950.0,True,True
+309,Second Block,1.0,906.0,False,True
+309,Second Block,4.0,896.0,True,True
+309,Second Block,3.0,477.0,True,True
+309,Second Block,6.0,891.0,False,True
+309,Second Block,4.0,727.0,False,True
+309,Second Block,5.0,595.0,True,True
+309,Second Block,2.0,638.0,False,True

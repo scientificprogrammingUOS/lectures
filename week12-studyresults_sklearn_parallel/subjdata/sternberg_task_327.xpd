@@ -1,0 +1,42 @@
+#Expyriment  (Python 3.6.6), .xpd-file, coding: UTF-8
+#date: Mon Jun 25 2018 11:08:43
+#--EXPERIMENT INFO
+#e mainfile: sternberg_task.py
+#e sha1: 860d85
+#e modules: 
+#e Experiment: Sternberg Task
+#e no between subject factors
+#e Block 0: Practice
+#e     block factors: 
+#e     n trials: 12
+#e     trial factors: length = [1, 2, 3, 4, 6]
+#e                    does_appear = [False, True]
+#e                    
+#e Block 1: First Block
+#e     block factors: 
+#e     n trials: 60
+#e     trial factors: length = [1, 2, 3, 4, 5, 6]
+#e                    does_appear = [False, True]
+#e                    
+#e Block 2: Second Block
+#e     block factors: 
+#e     n trials: 60
+#e     trial factors: length = [1, 2, 3, 4, 5, 6]
+#e                    does_appear = [False, True]
+#e                    
+#--SUBJECT INFO
+#s id: 327
+subject_id,Block,Length,Response Time,Does Appear,Correct Answer
+327,Practice,1.0,834.0,False,True
+327,Practice,1.0,308.0,True,True
+327,Practice,6.0,488.0,True,True
+327,Practice,2.0,478.0,False,True
+327,Practice,5.0,478.0,True,False
+327,Practice,4.0,772.0,False,True
+327,Practice,3.0,623.0,False,True
+327,Practice,2.0,352.0,True,False
+327,Practice,6.0,641.0,False,True
+327,Practice,3.0,338.0,True,True
+327,Practice,4.0,445.0,True,True
+327,Practice,5.0,596.0,False,True
+327,,,,False,False
