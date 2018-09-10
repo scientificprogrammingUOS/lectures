@@ -4,7 +4,6 @@ jupyterlab >= 0.32
 numpy
 matplotlib
 pandas
-plotnine
 statsmodels
 seaborn
 pivottablejs
