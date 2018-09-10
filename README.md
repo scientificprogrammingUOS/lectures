@@ -7,7 +7,7 @@ at the University Osnabrück. Each lecture is accompanied by a Jupyter notebook
 that explains each topic with a combination of code and text. You
 can view the notebooks directly on GitHub or run them locally and play
 with the code. If you do not want to install anything, click on the Binder
-logo above to run all the notebooks in ready to use environment in the cloud.
+logo above to run all the notebooks in a ready to use environment in the cloud.
 
 ## Recordings
 All lecture recordings can be viewed on the Opencast platform.
