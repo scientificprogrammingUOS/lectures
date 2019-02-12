@@ -57,4 +57,4 @@ Before committing changes, run the whole notebook from top to bottom using
     $ jupyter nbconvert --execute --allow-errors --inplace <lecture.ipynb> 
 
 ## Acknowledgments
-Thanks to [Auss Abbod](https://github.com/aauss) for making the videos YouTube ready!
+Thanks to [Auss Abbood](https://github.com/aauss) for making the videos YouTube ready!
