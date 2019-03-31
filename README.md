@@ -49,6 +49,8 @@ and interact with them.
 Before committing changes, run the whole notebook from top to bottom using
 
     $ jupyter nbconvert --execute --allow-errors --inplace <lecture.ipynb> 
+    
+To make new interactive exercises install [jupyter-solutions](https://github.com/rmotr/jupyterlab-solutions) and set up as teacher.
 
 ## Acknowledgments
 Thanks to [Auss Abbood](https://github.com/aauss) for making the videos YouTube ready!
