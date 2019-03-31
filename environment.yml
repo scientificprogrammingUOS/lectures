@@ -11,6 +11,7 @@ dependencies:
   - pandas
   - statsmodels
   - seaborn
+  - plotnine
   - pivottablejs
   - pandas-profiling
   - altair

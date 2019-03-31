@@ -1,0 +1,2 @@
+jupyter labextension install @jupyter-widgets/jupyterlab-manager
+jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace **/*.ipynb

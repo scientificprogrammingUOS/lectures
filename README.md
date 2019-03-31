@@ -9,7 +9,7 @@ with the code. If you do not want to install anything, click on the Binder
 logo above to run all the notebooks in a ready to use environment in the cloud.
 
 ## Recordings
-All lecture recordings can be viewed on [Youtube](https://www.youtube.com/playlist?list=PL7Rs54JKuEjFRyyhtJy2eDOhqTtmWpXzl) and on the Opencast platform.
+All lecture recordings from 2018 can be viewed on [Youtube](https://www.youtube.com/playlist?list=PL7Rs54JKuEjFRyyhtJy2eDOhqTtmWpXzl) and on the Opencast platform.
 
 | Lecture | YouTube                                                                                              | Opencast                                                                                                                                           |
 |---------|------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -29,19 +29,13 @@ All lecture recordings can be viewed on [Youtube](https://www.youtube.com/playli
 ## Installation
 Create a virtual Python environment, name e.g. *scientific*, for example using `conda`.
 
-    $ conda create -n scientific python
+    $ conda env create -f environment.yml
 
-Activate the environment on Linux/Mac
+Activate the environment 
 
-    $ source activate scientific
+    $ conda activate scientific
     
-or Windows 
-
-    $ activate scientific
-
-then install all dependencies
-
-    $ pip install -r requirements.txt
+you might see some error like `your shell has not been set up to use conda activate`. Follow the instructions given in your shell to make it work.
 
 then start JupyterLab
 
