@@ -1,0 +1,22 @@
+name: scientific
+channels:
+  - conda-forge
+  - default
+dependencies:
+  - python=3.7
+  - jupyterlab
+  - ipywidgets
+  - numpy
+  - matplotlib
+  - pandas
+  - statsmodels
+  - seaborn
+  - pivottablejs
+  - pandas-profiling
+  - altair
+  - vega_datasets
+  - numba
+  - cython
+  - pip:
+    - expyriment
+    - pygame
