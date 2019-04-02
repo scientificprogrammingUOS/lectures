@@ -20,6 +20,7 @@ dependencies:
   - altair
   - vega_datasets
   - numba
+  - pytest
   - cython
   - pip:
     - expyriment
