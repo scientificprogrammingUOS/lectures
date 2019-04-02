@@ -1,9 +1,11 @@
-name: scientific
+name: scientific_programming
 channels:
   - conda-forge
   - default
 dependencies:
   - python=3.7
+  - jupyter
+  - nodejs
   - jupyterlab
   - ipywidgets
   - numpy
