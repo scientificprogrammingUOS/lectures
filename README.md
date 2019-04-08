@@ -52,5 +52,7 @@ Before committing changes, run the whole notebook from top to bottom using
     
 To make new interactive exercises install [jupyter-solutions](https://github.com/rmotr/jupyterlab-solutions) and set up as teacher.
 
+Only use markdown headers to structure the lectures. Numbering will be automatically handled by the [jupyterlab-toc extension](https://github.com/jupyterlab/jupyterlab-toc).
+
 ## Acknowledgments
 Thanks to [Auss Abbood](https://github.com/aauss) for making the videos YouTube ready!
