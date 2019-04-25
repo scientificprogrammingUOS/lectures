@@ -5,4 +5,9 @@ jupyter labextension install @lckr/jupyterlab_variableinspector
 jupyter labextension install @rmotr/jupyterlab-solutions
 jupyter serverextension enable jupyterlab_rmotr_solutions
 mv jupyter_notebook_config.py ~/.jupyter/
+jupyter labextension install jupyter-matplotlib
+jupyter labextension install @ryantam626/jupyterlab_code_formatter
+jupyter serverextension enable --py jupyterlab_code_formatter
+
+# Clear output of all notebooks.
 jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace **/*.ipynb
