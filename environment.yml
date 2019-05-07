@@ -23,11 +23,11 @@ dependencies:
   - pytest
   - cython
   - tqdm
-  - ipympl
   - pip:
     - expyriment
     - pygame
     - jupyterlab-solutions
     - jupyterlab_code_formatter
     - nb_black
+    - ipympl
 
