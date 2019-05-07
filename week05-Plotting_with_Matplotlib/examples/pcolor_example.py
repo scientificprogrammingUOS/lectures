@@ -1,3 +1,6 @@
+import matplotlib
+matplotlib.use('nbAgg')
+
 """
 Shows the basics of pcolor/pcolormesh.
 One note: Use imshow if your data is on a rectangular grid, as it's much

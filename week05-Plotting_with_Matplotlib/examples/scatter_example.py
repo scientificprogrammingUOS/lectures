@@ -1,3 +1,6 @@
+import matplotlib
+matplotlib.use('nbAgg')
+
 """
 Illustrates the basics of using "scatter".
 """

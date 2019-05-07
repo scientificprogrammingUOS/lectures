@@ -1,3 +1,6 @@
+import matplotlib
+matplotlib.use('nbAgg')
+
 """
 Matplotlib has a handful of specalized statistical plotting methods.
 

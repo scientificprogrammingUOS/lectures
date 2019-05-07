@@ -1,3 +1,6 @@
+import matplotlib
+matplotlib.use('nbAgg')
+
 """
 Illustrate different ways of using the various fill functions.
 """
