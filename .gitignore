@@ -1,2 +1,6 @@
 ipynb_checkpoints/
 .ipynb_checkpoints/
+__pycache__/
+.idea/
+usernamepw.py
+cache*.json
