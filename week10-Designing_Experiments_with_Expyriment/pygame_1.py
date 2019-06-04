@@ -18,10 +18,11 @@ def main():
     while running:
         # event handling, gets all event from the eventqueue
         for event in pygame.event.get():
-            # only do something if the event is of type QUIT
+            # only do something if the event is of type QUIT (meaning you click the [x] or press ALT-F4)
             if event.type == pygame.QUIT:
                 # change the value to False, to exit the main loop
                 running = False
+                pygame.quit() #only necessary if you run it in Jupyter
 
 
 if __name__=="__main__":

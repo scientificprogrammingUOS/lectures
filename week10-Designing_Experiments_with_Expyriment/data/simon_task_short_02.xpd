@@ -1,0 +1,41 @@
+#Expyriment 0.9.0 (Python 3.7.3), .xpd-file, coding: UTF-8
+#date: Tue Jun 04 2019 09:18:43
+#--EXPERIMENT INFO
+#e mainfile: simon_task_short.py
+#e sha1: None
+#e modules: 
+#e Experiment: Simon Task
+#e between subject factors (permutation type: latin square)
+#e     OrderOfMapping = [1, 2]
+#e Block 0: unnamed
+#e     block factors: Mapping = left4green
+#e     n trials: 8
+#e     trial factors: Position = [left, right]
+#e                    Colour = [green, red]
+#e                    
+#e Block 1: unnamed
+#e     block factors: Mapping = left4red
+#e     n trials: 8
+#e     trial factors: Position = [left, right]
+#e                    Colour = [green, red]
+#e                    
+#--SUBJECT INFO
+#s id: 2
+#s b'OrderOfMapping' = 2
+subject_id,Mapping,Colour,Position,Button,RT
+2,left4red,red,left,276,926
+2,left4red,green,right,275,589
+2,left4red,red,right,276,565
+2,left4red,green,left,275,1252
+2,left4red,green,right,275,726
+2,left4red,red,left,276,510
+2,left4red,green,left,275,646
+2,left4red,red,right,276,326
+2,left4green,green,right,275,660
+2,left4green,green,right,276,710
+2,left4green,red,left,275,789
+2,left4green,red,right,276,933
+2,left4green,red,left,276,541
+2,left4green,green,left,276,406
+2,left4green,red,right,276,773
+2,left4green,green,left,275,550

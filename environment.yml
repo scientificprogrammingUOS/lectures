@@ -32,4 +32,4 @@ dependencies:
     - nb_black
     - ipympl
     - scikit-misc
-
+    - pySerial

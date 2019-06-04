@@ -40,6 +40,7 @@ def main():
     pygame.display.flip()
 
     time.sleep(5)
+    pygame.quit()
 
 
 if __name__ == "__main__":
