@@ -46,9 +46,14 @@ and interact with them.
 
 
 ## Contributing
-Before committing changes, run the whole notebook from top to bottom using
+Before committing changes, run the whole notebook from top to bottom using (for `fish`)
 
-    $ jupyter nbconvert --execute --allow-errors --inplace lecture.ipynb 
+    $ env RUNALL=1 jupyter nbconvert --execute --allow-errors --inplace lecture.ipynb 
+    
+for `bash`
+
+    $ export RUNALL=1 jupyter nbconvert --execute --allow-errors --inplace lecture.ipynb 
+
     
 To make new interactive exercises install [jupyter-solutions](https://github.com/rmotr/jupyterlab-solutions) and set up as teacher, by setting
 
@@ -59,6 +64,11 @@ in the repositories `jupyter_notebook_config.py`.
 Only use markdown headers to structure the lectures. Numbering will be automatically handled by the [jupyterlab-toc extension](https://github.com/jupyterlab/jupyterlab-toc).
 Also use markdown to talk about the content of the lecture and the next cells. Use comments only if you want to highlight something in a specific line of code.
 If you write comments, write them in full sentences.
+
+Use [`nbdime`](https://github.com/jupyter/nbdime) to make working with notebooks and git easier
+
+    pip install nbdime
+    nbdime config-git --enable  
 
 ## Acknowledgments
 Thanks to [Auss Abbood](https://github.com/aauss) for making the videos YouTube ready!

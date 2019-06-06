@@ -1,11 +1,14 @@
 from tqdm import tqdm_notebook
 from time import sleep
 from IPython.display import display, update_display
+import os
 
 def count_down(minutes):
-    
-    for j in tqdm_notebook(range(60 * minutes), bar_format=None):
-        sleep(1)
+    if not os.environ.get("RUNALL"):
+        for j in tqdm_notebook(range(60 * minutes), bar_format=None):
+            sleep(1)
+    else:
+        print(f"You have {minutes} minutes time for the exercise.")
         
 
 # class T:
