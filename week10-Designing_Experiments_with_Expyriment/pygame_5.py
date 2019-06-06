@@ -90,6 +90,15 @@ def main():
         elif (key == pygame.K_LEFT and num % 2 != 0) or (key == pygame.K_RIGHT and num % 2 == 0):
             effect.play()
 
+    screen.fill(BGCOLOR)
+    finaltext = font.render("Thank you for attending!", True, FONTCOLOR, BGCOLOR)
+    posx, posy = get_position(screen, finaltext, CENTER)
+    screen.blit(finaltext, (posx, posy))
+    pygame.display.flip()
+    wait_any_key()                             
+    pygame.quit()
+
+
 
 if __name__ == "__main__":
     main()

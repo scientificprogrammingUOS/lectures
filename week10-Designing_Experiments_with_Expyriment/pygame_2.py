@@ -1,4 +1,5 @@
 import pygame
+import time
 
 def main():
 
@@ -12,10 +13,12 @@ def main():
     # create a surface on screen that has the size of 240 x 180
     screen = pygame.display.set_mode((240,180))
 
-    image = pygame.image.load("logo32x32.jpg")
+    image = pygame.image.load("image.jpg")
     screen.blit(image, dest=(50,50))
     pygame.display.flip()
     
+    time.sleep(5)
+    pygame.quit() 
 
 
 if __name__ == "__main__":

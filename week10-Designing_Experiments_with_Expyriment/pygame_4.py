@@ -1,5 +1,8 @@
+# %load pygame_4.py
 import pygame
 import time
+
+killevent = lambda event: event.type == pygame.QUIT or (event.type is pygame.KEYDOWN and event.key == pygame.K_ESCAPE)
 
 def main():
 
@@ -26,8 +29,10 @@ def main():
         screen.blit(image, (xpos, ypos))
         pygame.display.flip()
         time.sleep(0.01)
-        if any(event.type == pygame.QUIT for event in pygame.event.get()):
+        if any(killevent(event) for event in pygame.event.get()):
             break
+            
+    pygame.quit()
 
 
 if __name__ == "__main__":
