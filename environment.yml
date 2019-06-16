@@ -33,3 +33,4 @@ dependencies:
     - ipympl
     - scikit-misc
     - pySerial
+    - tqdm
