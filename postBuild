@@ -21,5 +21,7 @@ jupyter labextension install jupyter-matplotlib
 conda install -y -n base -c conda-forge widgetsnbextension
 conda install -y -n scientific_programming -c conda-forge ipywidgets
 
+jupyter labextension install jupyterlab_voyager
+
 # Clear output of all notebooks.
 jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace **/*.ipynb
