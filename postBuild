@@ -1,5 +1,7 @@
 #!/bin/bash
 
+export NODE_OPTIONS=--max-old-space-size=4096
+
 jupyter labextension install @jupyter-widgets/jupyterlab-manager
 
 # https://github.com/jupyterlab/jupyterlab-toc
