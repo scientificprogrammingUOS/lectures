@@ -1,6 +1,7 @@
 import asyncio
 import os
 from time import time
+from id import client_id
 
 import aiohttp
 
@@ -28,7 +29,6 @@ async def async_download_link(session, directory, link):
 
 # Main is now a coroutine
 async def main():
-    client_id = 'f8f603617f590ed'
     download_dir = setup_download_dir()
     # We use a session to take advantage of tcp keep-alive
     # Set a 3 second read and connect timeout. Default is 5 minutes
