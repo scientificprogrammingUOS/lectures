@@ -24,6 +24,7 @@ dependencies:
   - pytest
   - cython
   - tqdm
+  - markdown
   - pip:
     - expyriment
     - pygame
