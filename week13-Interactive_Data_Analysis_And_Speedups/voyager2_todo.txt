@@ -5,7 +5,7 @@
 
 ---
 -upon selection of a dataset, focus view is empty, related view shows univariate summaries for all fields
----
+--- 
 usage scenario:
 -loading dataset -> familiarize with dataset -> univariate summaries (most cars have even number of cylinders, multiple times the same model name, most of USA, all between 1970-1982, acceleration normally distributed, ..)
 -then go to potential associations. -> Drag two quantitative field wildcards to "any" shelves  --> each pair of quanitative fields to x and y axes to make gallery of scatterplots. We see a roughly quadratic relationship between horsepower and miles per gallon, we're interested in that, let's bookmark it with a note, then specify  button to make it focus
