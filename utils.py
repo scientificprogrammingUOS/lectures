@@ -5,7 +5,7 @@ import os
 
 def count_down(minutes):
     if not os.environ.get("RUNALL"):
-        for j in tqdm_notebook(range(60 * minutes), bar_format=None):
+        for j in tqdm_notebook(range(60 * minutes)):
             sleep(1)
     else:
         print(f"You have {minutes} minutes time for the exercise.")
