@@ -35,4 +35,4 @@ dependencies:
     - scikit-misc
     - pySerial
     - tqdm
-    - clean_ipynb
+    - cleanipynb
