@@ -5,3 +5,4 @@ __pycache__/
 usernamepw.py
 cache*.json
 id.py
+.nbgrader.log
