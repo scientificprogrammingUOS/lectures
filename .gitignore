@@ -1,4 +1,6 @@
 TODO
+TODO_*
+.mypy_cache/
 ipynb_checkpoints/
 .ipynb_checkpoints/
 __pycache__/
