@@ -1,1 +1,0 @@
-As this lecture was about PyCharm's Debugger, it is not possible to make any notebooks about that - this lecture needs to be interactive. It is therefore referred to the Video of this year's lecture.
