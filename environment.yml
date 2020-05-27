@@ -32,7 +32,6 @@ dependencies:
     - jupyterlab_code_formatter
     - nb_black
     - ipympl
-    - scikit-misc
     - pySerial
     - tqdm
     - cleanipynb
