@@ -19,6 +19,8 @@ jupyter labextension install @ryantam626/jupyterlab_code_formatter
 jupyter serverextension enable --py jupyterlab_code_formatter
 jupyter labextension install jupyter-matplotlib
 
+jupyter labextension install @jupyterlab/plotly-extension
+
 :: https://ipywidgets.readthedocs.io/en/stable/user_install.html
 conda install -y -n base -c conda-forge widgetsnbextension
 conda install -y -n scientific_programming -c conda-forge ipywidgets

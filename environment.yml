@@ -25,6 +25,7 @@ dependencies:
   - cython
   - tqdm
   - markdown
+  - plotly
   - pip:
     - expyriment
     - pygame
