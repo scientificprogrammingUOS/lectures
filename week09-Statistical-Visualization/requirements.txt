@@ -1,0 +1,2 @@
+plotnine >= 0.4
+altair >= 3.2
