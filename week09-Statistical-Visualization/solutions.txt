@@ -23,15 +23,6 @@ barley['site'].value_counts()
  + geom_smooth()
 )
 
-5.5.1 
-
-### Exercise
-Let's again take a look at the `countries` dataset. Enrich the plot from above (`Literacy` vs. `GDP`) with information about the population density, the counties' climate and whether or not the countries are part of the European Union. Try to find mappings that make the plot interpretable! *Note:* To keep things somewhat clear, remove the regression from the plot. 
-
-
-(ggplot(countries, aes(y="GDP", x="Literacy", size="Pop. Density", color="Climate", shape="In EU"))
- + geom_point()
-)
 
 
 5.6
