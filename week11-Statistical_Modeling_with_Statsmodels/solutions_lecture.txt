@@ -1,0 +1,78 @@
+SOLUTIONS
+##################################### 3.4 ######################################
+fit_tips = smf.ols("tip ~ total_bill", tips).fit()
+fit_tips.summary()
+
+
+##################################### 4.5 ######################################
+distribution = stats.norm(loc=10, scale=1)
+n_samples = 1000
+sample_size = 20
+sampling_distribution_of_means = []
+for _ in range(n_samples):
+    mean = distribution.rvs(sample_size).mean()
+    sampling_distribution_of_means.append(mean)
+
+
+stderr = np.std(sampling_distribution_of_means)
+conf_intervals = confidence_interval(sampling_distribution_of_means)
+
+print(f"standard error = {stderr}")
+print(f"confidence intervals = {conf_intervals}")
+
+(
+    qplot(sampling_distribution_of_means, bins=25)
+    + geom_vline(
+        aes(xintercept=np.mean(sampling_distribution_of_means)), color="red", size=2
+    )
+    + geom_vline(
+        aes(xintercept=np.mean(sampling_distribution_of_means) + stderr), color="red"
+    )
+    + geom_vline(
+        aes(xintercept=np.mean(sampling_distribution_of_means) - stderr), color="red"
+    )
+    + geom_vline(aes(xintercept=conf_intervals), color="blue")
+    + labs(x="means", title="sampling distribution")
+)
+
+--> if our underlying population has less variance, so has our experiment -> more confident in our params
+
+##################################### 4.7 ######################################
+parameters are close, but the stderror and confidence interval are a bit larger than statsmodels says (we will see later why!)
+
+tips_sampling_distribution = get_sampling_distribution(
+    "tip ~ total_bill", "total_bill", tips, n_samples=1200
+)
+print(f"standard error = {tips_sampling_distribution.std()}")
+print(f"confidence intervals = {confidence_interval(tips_sampling_distribution, 95)}")
+
+##################################### 4.9 ######################################
+
+null_hypothesis_distribution_of_tips = get_null_hypothesis_distribution(
+    "tip ~ total_bill", "tip", "total_bill", tips
+)
+
+np.mean(np.abs(null_hypothesis_distribution_of_tips) >= fit_tips.params["total_bill"])
+
+
+###################################### 5.5 ######################################
+
+tips["resid"] = fit_tips.resid
+(
+    ggplot(tips, aes("total_bill", y="resid"))
+    + geom_point()
+    + geom_hline(aes(yintercept=0), linetype="--", color="gray")
+)
+
+AND 
+
+sm.qqplot(fit_tips.resid, line="45", scale=np.std(fit.resid));
+
+
+it was not -> as the total bill increases, the variance increases.
+
+###################################### 6.3 ######################################
+tips_fit_multiple = smf.ols("tip ~ total_bill + day + smoker * size", tips).fit()
+tips_fit_multiple.summary()
+
+p-values are all a lot > 0.05, and also the increase in the explained variance (R-squared) is not too high -> no.
