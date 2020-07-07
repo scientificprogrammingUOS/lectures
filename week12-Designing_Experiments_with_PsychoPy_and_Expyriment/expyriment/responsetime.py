@@ -1,3 +1,5 @@
+assert '__file__' in locals() #to make sure to not run this inside Jupyter
+
 from expyriment import design, control, stimuli, misc, io
 import random
 control.set_develop_mode(True)
@@ -11,7 +13,7 @@ blankscreen = stimuli.BlankScreen()
 blankscreen.preload()
 
 b = design.Block(name="Only Block")
-for i in range(10):
+for i in range(5):
     waiting_time = random.randint(200, 2000)
     t = design.Trial()
     t.set_factor("waiting_time", waiting_time)

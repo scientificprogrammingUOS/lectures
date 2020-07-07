@@ -1,4 +1,3 @@
-# %load pygame_4.py
 import pygame
 import time
 

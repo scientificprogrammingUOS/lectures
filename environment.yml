@@ -1,4 +1,4 @@
-name: scientific_programming
+name: scientific_programming123
 channels:
   - defaults
   - conda-forge
@@ -26,10 +26,11 @@ dependencies:
   - tqdm
   - markdown
   - plotly
+  - conda-forge::psychopy
   - pip:
     - expyriment
     - pygame
-    - jupyterlab-solutions
+    #- jupyterlab-solutions
     - jupyterlab_code_formatter
     - nb_black
     - ipympl
@@ -37,3 +38,8 @@ dependencies:
     - tqdm
     - cleanipynb
     - mypy
+    #psychopy
+    - psychtoolbox
+    - pyo
+    - pyparallel; platform_system != "Windows"
+    - SoundFile; platform_system == "Windows"

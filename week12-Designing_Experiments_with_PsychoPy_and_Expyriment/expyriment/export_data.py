@@ -1,3 +1,5 @@
+assert '__file__' in locals() #to make sure to not run this inside Jupyter
+
 from expyriment import misc
 import os
 

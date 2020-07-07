@@ -1,0 +1,67 @@
+from psychopy import logging
+
+# Store info about the experiment session
+psychopyVersion = '2020.1.2'
+expName = 'stroop'  # from the Builder filename that created this script
+expInfo = {'participant': '', 'session': '001'}
+dlg = gui.DlgFromDict(dictionary=expInfo, sortKeys=False, title=expName)
+if dlg.OK == False:
+    core.quit()  # user pressed cancel
+expInfo['date'] = data.getDateStr()  # add a simple timestamp
+expInfo['expName'] = expName
+expInfo['psychopyVersion'] = psychopyVersion
+
+filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])
+
+
+thisExp = data.ExperimentHandler(name=expName, version='',
+    extraInfo=expInfo, runtimeInfo=None,
+    originPath='/home/chris/Documents/UNI/sem_14/scientific_programming/lectures/week12-Designing_Experiments_with_Expyriment/psychopy/stroop.py',
+    savePickle=True, saveWideText=True,
+    dataFileName=filename)
+# save a log file for detail verbose info
+logFile = logging.LogFile(filename+'.log', level=logging.EXP)
+logging.console.setLevel(logging.WARNING)  # this outputs to the screen, not a file
+
+# --- when ending instructions ---
+thisExp.addData('key_res.keys',key_res.keys)
+if key_res.keys != None:  # we had a response
+    thisExp.addData('key_res.rt', key_res.rt)
+
+# --- before looping through trials ---
+
+# set up handler to look after randomisation of conditions etc
+trials = data.TrialHandler(nReps=1, method='random', 
+    extraInfo=expInfo, originPath=-1,
+    trialList=data.importConditions('stroop_conditions.csv'),
+    seed=None, name='trials')
+thisExp.addLoop(trials)  # add the loop to the experiment
+
+# --- when looping through trials ---
+
+for thisTrial in trials:
+    trials.addData('response.corr', response.corr)
+    if response.keys != None:  # we had a response
+        trials.addData('response.rt', response.rt)
+
+# these shouldn't be strictly necessary (should auto-save)
+thisExp.saveAsWideText(filename+'.csv')
+thisExp.saveAsPickle(filename)
+logging.flush()
+
+
+
+
+
+
+
+
+DOCS
+
+# add some data for this trial
+exp.addData('resp.rt', 0.8)
+exp.addData('resp.key', 'k')
+# end of trial - move to next line in data output
+exp.nextEntry()
+
+

@@ -3,19 +3,16 @@ import pandas as pd
 
 
 def load_df(name):
-    df = pd.read_csv(name, sep=';', skip_blank_lines=True, index_col='Index')
-    df = df.dropna(subset=['Exp'])
-    for column in ['Item', 'Condition', 'List_Num']:
-        df[column] = df[column].astype('Int8')
+    df = pd.read_csv(name, sep=';', skip_blank_lines=True, index_col='Index', dtype={'Index': 'Int32', 'Item': 'Int8', 'Condition': 'Int8', 'List_Num': 'Int8'})
     df['is_pract'] = df['is_pract'].astype('bool')
-    df.index = df.index.astype('Int32')
+    df = df.dropna(subset=['Exp'])
     return df
 
 
 control.set_develop_mode(False)
 control.defaults.window_mode = True
 control.defaults.window_size = [800, 600]
-control.defaults.initialize_delay = 0
+control.defaults.initialize_delay = 0 # you shouldn't set this to zero but it annoys me and I don't care about timing.
 
 exp = design.Experiment(name="My Experiment")
 control.initialize(exp)
@@ -23,7 +20,7 @@ control.initialize(exp)
 conditions = load_df("../bws_study.csv").dropna().groupby("Condition")
 print() #[data for nr, data in conditions]
 for nr, data in conditions:
-    block = design.Block(name="Condition" + str(int(nr)))
+    block = design.Block(name=f"Condition{nr}")
     block.set_factor("Condition", nr)
     for nr, sents in data.iterrows():
         t = design.Trial()
@@ -33,14 +30,18 @@ for nr, data in conditions:
             t.add_stimulus(s)
         block.add_trial(t)
     exp.add_block(block)
+#right now, we have ALL conditions for all subjects...
 
 exp.add_bws_factor("FallsWennCondition", ["Wenn-Condition", "Falls-Condition"])
 exp.add_bws_factor("GabGabCondition", ["GabGab-Condition", "GabnichtGab-Condition"])
 
-print() #exp
+print() #exp, exp.n_bws_factor_conditions
 control.start()
+#only after control.start() do we know the subject-ID and know wich conditions to delete..
 
 names_to_ids = {block.name: block.id for block in exp.blocks}
+print()
+
 if exp.get_permuted_bws_factor_condition("FallsWennCondition") == "Wenn-Condition":
     to_delete = {"Condition2", "Condition6"}
 else:

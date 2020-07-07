@@ -57,6 +57,7 @@ def main():
     pygame.mixer.pre_init(44100, 16, 2, 4096) #frequency, size, channels, buffersize
     pygame.init()
     screen=pygame.display.set_mode(SCREENSIZE)
+    pressed_keys = []
 
     screen.fill(BGCOLOR)
     font = pygame.font.Font(None, FONTSIZE)
@@ -85,6 +86,7 @@ def main():
         screen.blit(number, (posx, posy))
         pygame.display.flip()
         key = wait_any_key()
+        pressed_keys.append(key)
         if not key:
             return
         elif (key == pygame.K_LEFT and num % 2 != 0) or (key == pygame.K_RIGHT and num % 2 == 0):
@@ -95,7 +97,8 @@ def main():
     posx, posy = get_position(screen, finaltext, CENTER)
     screen.blit(finaltext, (posx, posy))
     pygame.display.flip()
-    wait_any_key()                             
+    wait_any_key()       
+    print('Pressed keys:', pressed_keys)
     pygame.quit()
 
 
