@@ -1,4 +1,4 @@
-name: scientific_programming123
+name: scientific_programming
 channels:
   - defaults
   - conda-forge
@@ -27,6 +27,7 @@ dependencies:
   - markdown
   - plotly
   - conda-forge::psychopy
+  - joblib
   - pip:
     - expyriment
     - pygame
@@ -34,6 +35,8 @@ dependencies:
     - jupyterlab_code_formatter
     - nb_black
     - ipympl
+    - jax
+    - jaxlib
     - pySerial
     - tqdm
     - cleanipynb
